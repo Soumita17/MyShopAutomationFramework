@@ -26,8 +26,3 @@ Framework uses a number of dependencies to work properly:
 
 
 
-### To Run the Automated Test for TestNG from cli...
-
-mvn clean test -Pcli
-
-
