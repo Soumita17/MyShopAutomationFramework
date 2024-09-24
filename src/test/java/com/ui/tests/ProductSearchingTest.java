@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -19,7 +20,7 @@ public class ProductSearchingTest extends BaseTest {
 	private static final String VALID_EMAIL = "soumitapaul19@gmail.com";
 	private static final String VALID_PASSWORD = "Pass123";
 	private static final String PRODUCT_NAME = "Printed Summer Dress";
-	private static final String EXPECTED_SUCCESS_MESSAGE = "Your order on My Store is complete.";
+	private static final String EXPECTED_SUCCESS_MESSAGE = "Your order on My Shop is complete.";
 
 	@BeforeMethod(description = "Setup the browser and perform login", alwaysRun = true)
 	public void setUp() {

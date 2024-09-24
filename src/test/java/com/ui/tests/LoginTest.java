@@ -30,8 +30,5 @@ public class LoginTest extends BaseTest {
 		Assert.assertEquals(actualUserName, expectedUserName,
 				"The logged-in user's name did not match the expected username.");
 	}
-
-	
-
 	
 }

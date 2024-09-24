@@ -31,7 +31,7 @@ public class ProductDetailsPage extends BrowserUtil {
 		return new ProductDetailsPage(getWd());
 	}
 
-	public PopUpPage addProductToCart() {
+	public PopUpPage addProductToCart(){	
 		clickOn(ADD_PRODUCT_LOCATOR);
 		return new PopUpPage(getWd());
 	}
