@@ -24,6 +24,7 @@ Framework uses a number of dependencies to work properly:
 - TestNG
 
 This framework is designed in such a way that it can be executed from github through Github Actions.It is also generates the HTML Reports and archieve them.
+
 ![image](https://github.com/user-attachments/assets/5aa6d6b3-86f8-46f6-908b-0d1a665421b4)
 
 
